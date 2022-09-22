@@ -1,0 +1,28 @@
+.metrica{
+    padding-bottom:96px;
+    text-align: left;
+}
+.metrica__lista{
+    display: flex;
+    padding: 0 5.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+.metrica__item{
+    width: 280px;
+}
+.metrica__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-destaque);
+}
+.metrica__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-titulo);
+    margin: 1em 0 0.5em 0;
+}
+.metrica__texto{
+    color: var(--cinza-paragrafos);
+    line-height: 24px;
+}

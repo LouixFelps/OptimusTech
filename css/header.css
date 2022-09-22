@@ -1,0 +1,42 @@
+.cabecalho{
+    display:flex;
+    justify-content: space-around;
+    padding: 1.5em 0;
+    align-items: center;
+    font-weight: 500;
+}
+
+.cabecalho__titulo{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: var(--cinza-titulo);
+    margin-left: 32px;
+}
+.cabecalho__titulo::before{
+    content: url('../img/worldwide\ 1\ \(Traced\).svg');
+    margin-right: 6px;
+}
+
+.cabecalho__lista{
+    display: flex;
+}
+.cabecalho__item{
+    margin-right: 2.5em;
+    color: var(--cinza-paragrafos);
+}
+
+.cabecalho__container{
+    margin-left: 18em;
+}
+.cabecalho__link-entrar{
+    margin-right: 2em;
+    color: var(--cinza-paragrafos);
+}
+.cabecalho__link-cadastrar, .cadastrar{
+    color: var(--branco);
+    background-color: var(--vermelho-destaque);
+    border: 1px solid var(--vermelho-destaque);
+    border-radius: 8px;
+    padding: 10px 18px;
+}

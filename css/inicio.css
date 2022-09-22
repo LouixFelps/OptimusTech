@@ -1,0 +1,24 @@
+.inicio{
+    display: block;
+    text-align: center;
+    padding: 96px 18em;
+}
+
+.inicio__paragrafo{
+    color: var(--vermelho-destaque);
+    font-weight: 600;
+}
+
+.inicio__titulo{
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul-titulo);
+}
+
+.inicio__texto{
+    color: var(--cinza-paragrafos);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+}
